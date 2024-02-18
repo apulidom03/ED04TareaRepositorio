@@ -3,6 +3,8 @@ package Entornos4;
 public class Main {
     public static void main(String[] args) {
         NuevoMetodo();
+        
+        System.out.println("Objeto creado.");
     }
 
     public static void NuevoMetodo() {

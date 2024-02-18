@@ -25,5 +25,12 @@ public class Main {
 
         double bonoactual = cesta.bonificacion();
         System.out.println("Su bono actual es  " + bonoactual);
+        
+        try {
+            System.out.println(" Modificación 1");
+            cesta.ActualizarBono(-50);
+        } catch (Exception e) {
+            System.out.print("Fallo…….");
+        }
     }
 }
